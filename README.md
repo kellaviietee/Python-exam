@@ -59,6 +59,8 @@ Funktsioon saab sisendiks sõne. Funktsioon tagastab kõikide (ühekohaliste) nu
 
 Fnktsioon saab sisendiks kolm täisarvu ja tagastab järjendi `start`-ist `stop`-ini, nii et lõpuks oleks `number` arv elemente järjendis.
 
+Tulemuse esimene arv on alati `start`. Kõik järgmised elemendid tulevad kindla sammu tagant. Seega mõistlik on välja arvutada samm. Edasi on vaja leida vajalik kogus elemente kasutades leitud sammu.
+
 ## 03. `add_symbol` (30p)
 
 Funktsioon saab sisendiks sõne ja sümbolid, mis näitavad milliseid tähti või numbreid tuleb tagastatavasse sõnesse lisada. 
@@ -77,6 +79,8 @@ Arvuta inimesele h-indeks.
 H-indeks on suurim niisugune arv, kui palju leidub selliseid artikleid, mida on vähemalt selle arvu võrra viidatud. Ehk siis h-index N tähistab seda, et leidub vähemalt N sellist artiklit, mida on viidatud N või rohkem korda (ehk siis leidub vähemalt N sellist elementi, mille väärtus on N või suurem) - siin funktsioonis tuleb leida suurim võimalik N antud järjend jaoks.
 
 Näiteks: sisendi [4, 2, 4] korral on h-indeks 2 (leidub vähemalt 2 artiklit, mida on viidatud 2 või enam korda). 3 enam ei sobiks (ei leidu kolme artiklit, mida on viidatud 3 või enam korda). Vaata täiendavaid näiteid mallist.
+
+Üldisemalt võib ülesannet lugeda nii: Leia kõige suurem naturaalarv N nii, et leidub vähemalt N elementi, mille väärtus >= N.
 
 ## 05. `count_pairs` (30p)
 
@@ -129,7 +133,7 @@ populaarsema täidise! Kui populaarseid kombinatsioone on mitu, tagastada see, m
 nagu meetodi parameetris on etteantud. Parameeter antakse alati väikeste tähtedega.
 
 **Mallis maini all on kogemata ka meetod `get_least_popular_donut()` - seda ei pea implementeerima - võib mallist kustutada**
-    
+
 ## 08. Witcher (100p)
 
 Realiseeri süsteem, mis simuleerib koletisi jahtivaid witcher'eid.
