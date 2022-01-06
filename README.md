@@ -80,7 +80,7 @@ H-indeks on suurim niisugune arv, kui palju leidub selliseid artikleid, mida on 
 
 Näiteks: sisendi [4, 2, 4] korral on h-indeks 2 (leidub vähemalt 2 artiklit, mida on viidatud 2 või enam korda). 3 enam ei sobiks (ei leidu kolme artiklit, mida on viidatud 3 või enam korda). Vaata täiendavaid näiteid mallist.
 
-Üldisemalt võib ülesannet lugeda nii: Leia kõige suurem naturaalarv N nii, et leidub vähemalt N elementi, mille väärtus >= N.
+Üldisemalt võib ülesannet lugeda nii: Leia kõige suurem naturaalarv N nii, et leidub vähemalt N elementi, mille väärtus >= N. Siin ülesandes ei pea mateemaatiliselt parimat N väärtust leidma. Saab proovida, miline suurim sobib.
 
 ## 05. `count_pairs` (30p)
 
