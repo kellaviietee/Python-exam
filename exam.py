@@ -397,7 +397,6 @@ if __name__ == '__main__':
     donut_factory.add_donuts(donuts)
 
     print(donut_factory.get_donuts_by_flavour('marshmallow'))  # [donut3, donut7]
-    print(donut_factory.get_least_popular_donut())  # {icing: chocolate, filling: caramel}
     print(donut_factory.get_most_popular_donut())  # {icing: sugar, filling: chocolate}
     print(donut_factory.pack_donuts_by_filling_and_icing())  # {(chocolate, sugar): [donut1, donut4, donut8],
     #                                                               (caramel, chocolate): [donut2],
