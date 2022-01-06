@@ -127,6 +127,8 @@ populaarsema täidise! Kui populaarseid kombinatsioone on mitu, tagastada see, m
 
 - `get_donuts_by_flavour(self, flavour: str)` - meetod peab tagastama nimekirja nendest sõõrikutest, mille glasuur või täidis on sama
 nagu meetodi parameetris on etteantud. Parameeter antakse alati väikeste tähtedega.
+
+**Mallis maini all on kogemata ka meetod `get_least_popular_donut()` - seda ei pea implementeerima - võib mallist kustutada**
     
 ## 08. Witcher (100p)
 
